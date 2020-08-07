@@ -60,3 +60,59 @@ form {
   border: none;
   border-radius: 5px;
 }
+
+#pricing_box {
+  width: 100%;
+  display: block;
+}
+
+.card {
+  padding: 20px;
+  border: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: black;
+  float: left;
+  margin: 20px;
+}
+
+.btn {
+  padding: 5px;
+  background-color: coral;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #a04929;
+}
+
+#features-div {
+  width: 100%;
+}
+
+.line {
+  /* background-color: crimson; */
+  width: 100%;
+  display: block;
+}
+
+.left {
+  /* background-color: darkolivegreen; */
+  width: 250px;
+  float: left;
+  padding: 10px;
+  /* display: inline; */
+}
+
+.right {
+  width: 400px;
+  /* display: inline; */
+}
+
+@media (max-width: 600px) {
+  #main-div {
+    background-color: aqua;
+  }
+}
