@@ -127,6 +127,26 @@ form {
   /* display: inline; */
 }
 
+#footer {
+  width: 100%;
+  background-color: #ddd;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+}
+
+.footer_link {
+  text-align: right;
+  color: #444;
+}
+
+.footer_link a {
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+
 @media (max-width: 600px) {
   #main-div {
     background-color: aqua;
